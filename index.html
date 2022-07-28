@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form for="enviar">
+        <label for="nome">Nome</label>
+        <div>       </div>
+        <input id="nome" type="text" placeholder="digite seu nome" required/>
+        <p></p>
+
+        <label for="email">e-mail</label>
+        <div></div>
+        <input id="email" type="email" placeholder="digite seu e-mail" required/>
+        <p></p>
+
+        <label for="mensagem">Descrição</label>
+        <div></div>
+        <textarea placeholder="O que te motivou a participar do evento?" 
+        id="mensagem" 
+        cols="25"
+        rows="5"
+        name="mensagem"
+        required="true"></textarea>
+        <p></p>
+
+        <label for="modulokenzie">Módulo Cursando</label>
+        <div></div>
+        <select name="modulokenzie">
+            <option value="M1">
+                M1
+            </option>
+            <option value="M2">
+                M2
+            </option>
+            <option value="M3">
+                M3
+            </option>
+            <option value="M4">
+                M4
+            </option>
+            <option value="M5">
+                M5
+            </option>
+            <option value="M6">
+                M6
+            </option>
+
+        </select>
+        <p></p>
+
+        <label for="senha">Senha</label>
+        <div></div>
+        <input type="password" placeholder="digite sua senha" id="senha" required/>
+        <div></div>
+        <input type="password" placeholder="confirme sua senha" id="senha" required/>
+        <p></p>
+
+        <label for="contato">Deseja receber nossa newsletter?</label>
+        <div></div>
+        sim <input type="radio" name="email" required> não <input type="radio" name="email" required/>
+        <p></p>
+        <button type="submit">Enviar</button>
+    
+    </form>
+    
+
+   
+</body>
+</html>
